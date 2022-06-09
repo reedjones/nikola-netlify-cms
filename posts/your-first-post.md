@@ -1,6 +1,6 @@
 ---
-title: Your First Post
-slug: your-first-post
+title: My First Post
+slug: my-first-post
 date: 2016-08-29 15:29:40 UTC
 ---
-Write your post here.
+Welcome to my blog made with nikola and netlify!

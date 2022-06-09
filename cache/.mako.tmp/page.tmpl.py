@@ -5,10 +5,10 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1654748543.7404585
+_modified_time = 1654748543.3804574
 _enable_loop = True
-_template_filename = 'C:/Users/reedj/.virtualenvs/PycharmProjects/Blog/lib/site-packages/nikola/data/themes/base/templates/archive.tmpl'
-_template_uri = 'archive.tmpl'
+_template_filename = 'C:/Users/reedj/.virtualenvs/PycharmProjects/Blog/lib/site-packages/nikola/data/themes/base/templates/page.tmpl'
+_template_uri = 'page.tmpl'
 _source_encoding = 'utf-8'
 _exports = []
 
@@ -23,7 +23,7 @@ def _mako_generate_namespaces(context):
     pass
 def _mako_inherit(template, context):
     _mako_generate_namespaces(context)
-    return runtime._inherit_from(context, 'list_post.tmpl', _template_uri)
+    return runtime._inherit_from(context, 'story.tmpl', _template_uri)
 def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
@@ -37,6 +37,6 @@ def render_body(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"filename": "C:/Users/reedj/.virtualenvs/PycharmProjects/Blog/lib/site-packages/nikola/data/themes/base/templates/archive.tmpl", "uri": "archive.tmpl", "source_encoding": "utf-8", "line_map": {"27": 0, "32": 1, "38": 32}}
+{"filename": "C:/Users/reedj/.virtualenvs/PycharmProjects/Blog/lib/site-packages/nikola/data/themes/base/templates/page.tmpl", "uri": "page.tmpl", "source_encoding": "utf-8", "line_map": {"27": 0, "32": 1, "38": 32}}
 __M_END_METADATA
 """

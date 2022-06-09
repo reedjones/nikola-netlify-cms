@@ -187,7 +187,7 @@ pygments==2.11.2
     #   jupyterlab-pygments
     #   nbconvert
     #   nikola
-pyinotify==0.9.6
+pyinotify==0.9.6; 'linux' in sys.platform
     # via doit
 pyparsing==3.0.7
     # via packaging
